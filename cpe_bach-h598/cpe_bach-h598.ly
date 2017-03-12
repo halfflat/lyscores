@@ -50,7 +50,7 @@ r8 fis,( g a b c) | e,4( dis2^\trill) | e8 g( b dis e b) | d4( cis2) |
 % line 9
 d,8 fis( a cis d a) | c?4( b2~) | b8 c( b ais) r a~ | a8 gis b a a,4~ |
 % line 10
-a4 a a'~ | a8 a( e' dis) e4 | r8 a,8 g4( fis^\trill) | e2 r4 \bar "||"
+a4 a a'~ | a8 a( e' dis) e4 | r8 a,8 g4( fis^\trill) | e2 r4 \bar "|."
 %
 	}
     }
@@ -87,7 +87,7 @@ e4 r8 g(_\p fis? e) |
 dis4 r8 cis4( b8) | d?8( cis_\markup{\bold\italic for}) e( dis) fis( e) |
 g8( fis4) a8 g4 | r8 cis e4( dis^\trill) |
 % line 11
-e2 r4 \bar "||"
+e2 r4 \bar "|."
 %
         }
     }
@@ -168,7 +168,7 @@ b4( a | c b) | e4( d |
 c4 b) | b16 e d c b a g fis | g16 b a g fis e d c |
 b8. c16 \grace{ b8 } a4^\trill |
 g8 \tuplet 3/2 { b16 a g } d'8 \tuplet 3/2 { b16 a g } |
-g'8 r8 r4 | R2 \bar "||" |
+g'8 r8 r4 | R2 \bar ":|." |
 	}
     }
 }
@@ -238,7 +238,7 @@ b8 a4 g8 | c,2_\f |
 % line 19
 b16 g a b c d e fis | g8. a16 \grace { g8 } fis4 | g8 r8 r4 |
 r8 \tuplet 3/2 {d,16 e fis} g8 \tuplet 3/2 { b,16 c d} |
-g,4 r4 \bar "||" |
+g,4 r4 \bar ":|." |
 	}
     }
 }
@@ -275,7 +275,23 @@ g32[ a b cis] d[ cis b a] g[ fis e d] |
 b'8 e,4^\trill | d4 r8 \bar ":..:" |
 f4_\p \tuplet 3/2 { f16 d f} | e8^\upline a^\upline r |
 gis4^\upline \tuplet 3/2 { b16( g d) } | c16[ a' e c] a8^\trill |
-a'32[ b c d] e16[ c b a] }
+a'32_\markup{\bold\italic for}[ b c d] e16[ c b a] }
+% line 7
+gis16[ f e d c b] | c8^\upline r16 a16 b c | d16[ e fis gis a b] |
+c8_\f^\trill e16( c) r8 | b8^\prall d16( b) r8 | a8 c16( a) e16 a |
+% line 8
+g4( fis8^\trill) | g32_\markup{\bold\italic for}[ a b a] g[ fis e d] cis[ b a g] |
+fis16[ a] d[ fis] a8 | g32_\p[ a bes a] g[ f ees d] cis[ bes' a g] |
+% line 9
+fis16[ d'] a[ fis] d8^\trill | c'?32_\markup{\bold\italic for}[ d e d] c[ b a g] fis[ e d c] |
+b16[ d] g[ b] d[ d,] | e32( c' b a) a4^\trill | g8^\upline d'16( b) r8 |
+% line 10
+r8 c16( a) r8 | r8 b16 g  r16 d | dis16[( e]) e,[( c']) a[( fis]) |
+g'32[ g, a b] c[ d e fis] g[ b, c d] |
+% line 11
+e32[ fis g a ] b[ g fis g ] a[ b c d] | e8 a,4^\trill | g4 r8
+\bar ":|."
+
 	}
     }
 }
@@ -300,7 +316,26 @@ g8 e a | d,8 r fis16( d') | e,16( cis') r8 cis,16( a') | d,16( a') r8 fis |g4 a8
 \stemNeutral cis[ b a g] fis[ d' cis b] |
 % line 5
 a32[ g fis e] d[ e fis g] a[ b cis d] | g,8_\upline a4^\trill |
-\stemUp d,8 \stemNeutral d'16 c? b a \bar ":..:" |
+\stemUp d,8 \stemNeutral d'16 c? b a \bar ":..:" | gis4_\p \tuplet 3/2 { d'16( b d) } |
+c4^\upline r8 |
+% line 6
+b4 \tuplet 3/2 { gis16( e gis) } | a8 r16 a, c[ e] | c16 a r16 a'' gis fis |
+e[ d c b a gis] | a32[( b c d)] e16 c b a |
+% line 7
+gis16[ fis? e d c b] | a8 r8 fis'16_\p d' | r8 r8 g,16( d') | c,4. | d4. | e4._\f |
+d'32[ e fis e] d[ cis b a] g[ fis e d] |
+% line 8
+ees4._\p | d'32[ e fis e] fis[ g a g] fis[ e d e] | fis4._\f |
+g32[ a b a] g[ fis e d] [c b a g] | c8[ d d,] |
+% line 9
+g8 r b16( g') | a,16( fis') r8 fis,16( d') | g,16( d') r8 b | c8[ a d] |
+g,8 r8 b,16( g') | a,16( fis') r8 fis16( d) |
+% line 10
+g,16( d') r8 b | c4 d8 | g,32[_\f b' a g] fis[ e d c] b[ g' fis e] |
+d32[ c b a] g[ b a b] c[ d e d] |
+% line 11
+c8^\upline d4 | g,8 d''16 c b a \bar ":|,"
+
 
 	}
     }
@@ -396,10 +431,10 @@ musicMvtThree = {
 
 \bookpart {
     \paper {
-       	annotate-spacing = ##f
-         min-systems-per-page = 7
-	ragged-bottom = ##f
-	ragged-last-bottom = ##f
+       	%annotate-spacing = ##f
+        %min-systems-per-page = 8
+	%ragged-bottom = ##t
+	%ragged-last-bottom = ##t
     }
     \score {
 	\new GrandStaff \musicMvtThree
@@ -438,34 +473,3 @@ musicMvtThree = {
 	}
     }
 }
-%    \score {
-
-%	\new GrandStaff \musicMvtTwo
-%        \midi {
-%	    output-suffix = "-m2"
-%	    \context {
-%		\Score tempoWholesPerMinute = #(ly:make-moment 112 4)
-%	    }
-%	}
-%    }
-%}
-%
-%    \score {
-%	\new GrandStaff \musicMvtThree
-%        \midi {
-%	    output-suffix = "-m3"
-%	    \context {
-%		\Score tempoWholesPerMinute = #(ly:make-moment 126 4)
-%	    }
-%	}
-%    }
-%
-%    \score {
-%	\new GrandStaff \musicMvtFour
-%        \midi {
-%	    output-suffix = "-m4"
-%	    \context {
-%		\Score tempoWholesPerMinute = #(ly:make-moment 160 8)
-%	    }
-%	}
-%    }
